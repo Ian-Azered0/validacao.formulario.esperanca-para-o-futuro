@@ -1,0 +1,35 @@
+:root{
+  /* Palette - dark theme friendly */
+  --color-primary: #4CAF50;
+  --color-secondary: #2196F3;
+  --color-accent: #FF9800;
+  --color-support-1: #9C27B0;
+  --color-support-2: #FBC02D;
+  --neutral-100: #FAFAFA;
+  --neutral-200: #BDBDBD;
+  --neutral-900: #121212;
+  --surface-1: #1E1E1E;
+  --surface-2: #232323;
+  --font-family-base: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 2rem;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+  --grid-columns: 12;
+  --gutter: 16px;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;padding:0}
+body.theme-dark{background:var(--neutral-900);color:var(--neutral-100);font-family:var(--font-family-base);font-size:var(--fs-md);line-height:1.5}
+.container{max-width:1200px;margin:0 auto;padding:var(--space-3)}
+.visually-hidden{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap}
+h1{font-size:var(--fs-xl);margin:0 0 var(--space-2)}
+h2{font-size:var(--fs-lg);margin:0 0 var(--space-2)}
+h3{font-size:var(--fs-md);margin:0 0 var(--space-1)}
