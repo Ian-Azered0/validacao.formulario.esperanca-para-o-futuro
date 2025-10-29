@@ -1,6 +1,6 @@
 # ONG Uma Esperança para o Futuro — SPA (Vanilla JS)
 
-Esta versão implementa um **Single Page Application (SPA)** usando JavaScript puro, com:
+Esta versão implementa um **Single Page Application (SPA)** usando JavaScript, com:
 - Sistema de rotas via hash (home, projetos, cadastro)
 - Renderização de templates com <template>
 - Validação avançada de formulários (CPF, email, telefone, CEP)
@@ -11,7 +11,6 @@ Esta versão implementa um **Single Page Application (SPA)** usando JavaScript p
 ## Rodar localmente
 1. Abra no VS Code.
 2. Rode Live Server ou `python -m http.server`.
-3. Acesse `http://127.0.0.1:5500/` (ou a porta do Live Server).
 
 ## Notas
 - Arquivo `index.html` agora contém as views como templates e o SPA router em `js/main_spa.js`.
